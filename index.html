@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+            background-image:url("img/bingxiang3.jpg");
+            background-position: 0 0;
+            background-size:  calc(100%*7)  calc(100%*4);
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+
+</div>
+
+<script>
+
+    var row = 0, col = 0;
+    var set1 = setInterval(function () {
+        var main = document.querySelector('.main');
+        col++;
+        if(col == 7){
+            row++;
+            col = 0;
+        }
+        if(row == 3){
+            clearInterval(set1);
+        }
+        console.info(row,col);
+        console.log((7-col),(4-row));
+        main.style = 'background-position: calc(100%*'+ (7-col) +') calc(100%*'+ (4-row) +')';
+
+
+    },200)
+
+</script>
+
+</body>
+</html>
