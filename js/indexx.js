@@ -5,12 +5,25 @@
 var j = 2;
 var set1 = setInterval(function () {
     $('.newsList li').eq(j).slideDown(1000);
+    if(j==2){
+        play_sound('./sounds/momo.mp3');
+    }else {
+        // play_sound('./sounds/mail/.mp3');
+    }
     j--;
     if (j == -1) {
         clearInterval(set1);
         changePages();
     }
 }, 1000);
+function play_sound(url) {
+    createjs.Sound.on("fileload", handleLoadComplete);
+    createjs.Sound.alternateExtensions = ["mp3"];
+    createjs.Sound.registerSound({src: url, id:"sound"});
+    function handleLoadComplete(event) {
+        createjs.Sound.play("sound");
+    }
+}
 function changePages() {
     $('.page1').click(function () {
         $(this).css({'display': 'none'});

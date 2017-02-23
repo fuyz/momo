@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327766b7-c35c-41f8-b696-66e618dc9199" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/indexx.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/rice (1).jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/mail.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/momo.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/soundjs-NEXT.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/beer.jpg" afterPath="$PROJECT_DIR$/animate_img/beer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bingxiang1.jpg" afterPath="$PROJECT_DIR$/animate_img/bingxiang1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bingxiang2.jpg" afterPath="$PROJECT_DIR$/animate_img/bingxiang2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/bingxiang3.jpg" afterPath="$PROJECT_DIR$/animate_img/bingxiang3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/rice.jpg" afterPath="$PROJECT_DIR$/animate_img/rice.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/img/sauce.jpg" afterPath="$PROJECT_DIR$/animate_img/sauce.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indexx.js" afterPath="$PROJECT_DIR$/js/indexx.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,24 +31,34 @@
       <file leaf-file-name="indexx.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/indexx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="252">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
                 <element signature="n#!!block;n#animate1#0" expanded="false" />
                 <element signature="n#!!block;n#animate2#0" expanded="false" />
                 <element signature="n#!!block;n#animate3#0" expanded="false" />
+                <element signature="n#!!block;n#sauce_animate_get#0" expanded="false" />
+                <element signature="n#!!block;n#sauce_animate_pull#0" expanded="false" />
+                <element signature="n#!!block;n#rice_animate_get#0" expanded="false" />
+                <element signature="n#!!block;n#rice_animate_pull#0" expanded="false" />
+                <element signature="n#!!block;n#beer_animate_get#0" expanded="false" />
+                <element signature="e#8808#9509#0" expanded="false" />
+                <element signature="n#!!block;n#close_bx#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="78" column="7" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="173">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +86,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/js/sound.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/indexx.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -94,8 +100,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="848" />
-    <option name="y" value="14" />
+    <option name="x" value="960" />
+    <option name="y" value="8" />
     <option name="width" value="1067" />
     <option name="height" value="1016" />
   </component>
@@ -141,7 +147,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sounds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="momo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="momo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="momo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="momo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -159,12 +193,14 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zhihe\Desktop\momo\animate_img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Document\momo\sounds" />
+      <recent name="G:\Document\momo" />
       <recent name="C:\Users\Administrator.WQ-20170108GQXK\Desktop\momo\js" />
       <recent name="C:\Users\zhihe\Desktop\momo\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhihe\Desktop\momo\animate_img" />
     </key>
   </component>
   <component name="RunManager">
@@ -242,15 +278,15 @@
       <workItem from="1487770627078" duration="6699000" />
       <workItem from="1487812223575" duration="86000" />
       <workItem from="1487831138782" duration="9109000" />
-      <workItem from="1487840910232" duration="113000" />
+      <workItem from="1487840910232" duration="3233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18960000" />
+    <option name="totallyTimeSpent" value="22080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="848" y="14" width="1067" height="1016" extended-state="1" />
+    <frame x="960" y="8" width="1067" height="1016" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22157435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -279,7 +315,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -293,6 +329,13 @@
             <element signature="n#!!block;n#animate1#0" expanded="false" />
             <element signature="n#!!block;n#animate2#0" expanded="false" />
             <element signature="n#!!block;n#animate3#0" expanded="false" />
+            <element signature="n#!!block;n#sauce_animate_get#0" expanded="false" />
+            <element signature="n#!!block;n#sauce_animate_pull#0" expanded="false" />
+            <element signature="n#!!block;n#rice_animate_get#0" expanded="false" />
+            <element signature="n#!!block;n#rice_animate_pull#0" expanded="false" />
+            <element signature="n#!!block;n#beer_animate_get#0" expanded="false" />
+            <element signature="e#8808#9509#0" expanded="false" />
+            <element signature="n#!!block;n#close_bx#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -309,6 +352,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -321,6 +368,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -333,6 +384,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,16 +482,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animate_img/bingxiang3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sound.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
@@ -447,15 +503,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/indexx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
             <element signature="n#!!block;n#animate1#0" expanded="false" />
             <element signature="n#!!block;n#animate2#0" expanded="false" />
             <element signature="n#!!block;n#animate3#0" expanded="false" />
+            <element signature="n#!!block;n#sauce_animate_get#0" expanded="false" />
+            <element signature="n#!!block;n#sauce_animate_pull#0" expanded="false" />
+            <element signature="n#!!block;n#rice_animate_get#0" expanded="false" />
+            <element signature="n#!!block;n#rice_animate_pull#0" expanded="false" />
+            <element signature="n#!!block;n#beer_animate_get#0" expanded="false" />
+            <element signature="e#8808#9509#0" expanded="false" />
+            <element signature="n#!!block;n#close_bx#0" expanded="false" />
           </folding>
         </state>
       </provider>
