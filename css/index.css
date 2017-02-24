@@ -1,109 +1,192 @@
-html,body{
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-.main{
+
+.main {
     width: 100%;
     height: 100%;
     /*background-image:url("img/bingxiang3.jpg");*/
     /*background-position: 0 0;*/
     /*background-size:  calc(100%*7)  calc(100%*4);*/
 }
-.page1{
+
+.page1 {
     width: 100%;
     height: 100%;
     background: black;
+    /*display: none;*/
 }
-.time{
+
+.time {
     padding-bottom: 20px;
     text-align: center;
     border-bottom: 1px solid #444;
 }
-.time img{
+
+.time img {
     margin-top: 20px;
     width: 66%;
 }
-.newsList{
+
+.newsList {
     color: white;
     list-style: none;
     padding: 0;
 }
-.newsList li{
+
+.newsList li {
     display: none;
 }
-.newsList li:nth-child(1),.newsList li:nth-child(2){
+
+.newsList li:nth-child(1), .newsList li:nth-child(2) {
     background-image: url('../img/msg-bg.png');
     background-repeat: no-repeat;
     background-size: 24px;
-    background-position: 14px 19px;
+    background-position: 25px 19px;
     border-bottom: 1px solid #444;
 }
-.newsList li:nth-child(3){
+
+.newsList li:nth-child(3) {
     background-image: url('../img/momo-bg.png');
     background-repeat: no-repeat;
     background-size: 24px;
-    background-position: 14px 19px;
+    background-position: 25px 19px;
 }
-.newsList li p,.newsList li h4 {
-    padding: 0 30px 0 46px;
+
+.newsList li p, .newsList li h4 {
+    padding: 0 30px 0 55px;
 }
-.newsList li h4{
+
+.newsList li h4 {
     margin-top: 0;
     padding-top: 20px;
 }
-.newsList li p{
+
+.newsList li p {
     line-height: 24px;
 }
-.page2,.page3{
+
+.move_momo {
+    animation: scale 0.6s ease infinite;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.05);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.page2, .page3 {
     /*display: none;*/
     width: 100%;
     height: 100%;
     background: black;
 }
-.page2{
-    background-image:url("../animate_img/bingxiang1.jpg");
+
+.page2 {
+    background-image: url("../animate_img/bingxiang1.jpg");
     background-position: 0 0;
-    background-size:  calc(100%*7)  calc(100%*4);
+    background-size: calc(100% * 7) calc(100% * 4);
     position: relative;
 }
 
-#sauce,#beer,#rice{
+#sauce, #beer, #rice {
     width: 40px;
     height: 40px;
     background-image: url("../img/get-hint.png");
     background-repeat: no-repeat;
     background-size: 120px 30px;
 }
-#sauce{
+
+#sauce {
     position: absolute;
-    top: 254px;
-    left: 110px;
-}
-#beer{
-    position: absolute;
-    top: 362px;
-    left: 180px;
-}
-#rice{
-    position: absolute;
-    top: 255px;
-    left: 175px;
+    top: 39%;
+    left: 28%;
 }
 
-.hint1{
+#rice {
+    position: absolute;
+    top: 42%;
+    left: 57%;
+}
+
+#beer {
+    position: absolute;
+    top: 72%;
+    left: 55%;
+}
+
+.hint1 {
     background-position: 0px 5px;
 }
-.hint2{
+
+.hint2 {
     background-position: -37px 5px;
 }
 
-.hint3{
+.hint3 {
     background-position: -78px 5px;
 }
 
-.sauce-text{
+.jump {
+    width: 48%;
+    height: 50px;
+    position: absolute;
+    bottom: 7px;
+    left: 50%;
+    margin-left: -24%;
+    background-image: url(../img/jump.png);
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.jump1 {
+    background-position: 0 0;
+}
+
+.jump2 {
+    background-position: 0 -50px;
+}
+
+.jump3 {
+    background-position: 0 -100px;
+}
+
+.sauce-text {
     position: absolute;
     width: 100%;
+}
+
+.fridge {
+    width: 100%;
+    position: absolute;
+    top: 38px;
+}
+
+.choice_btn {
+    position: absolute;
+    bottom: 83px;
+    left: 50%;
+    margin-left: -62px;
+    width: 142px;
+    height: 61px;
+    background-image: url(../img/choice-close.png);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    outline: none;
 }
