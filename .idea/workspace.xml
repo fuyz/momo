@@ -4,17 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/js/sounds_init.js" line="35" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327766b7-c35c-41f8-b696-66e618dc9199" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/sounds_init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/Humm.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/soundjs-NEXT.combined.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indexx.js" afterPath="$PROJECT_DIR$/js/indexx.js" />
-    </list>
+    <list default="true" id="327766b7-c35c-41f8-b696-66e618dc9199" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -143,7 +133,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="664" />
+    <option name="x" value="577" />
     <option name="y" value="18" />
     <option name="width" value="1241" />
     <option name="height" value="998" />
@@ -312,15 +302,15 @@
       <workItem from="1487901531818" duration="17755000" />
       <workItem from="1487927193812" duration="2629000" />
       <workItem from="1487930746793" duration="2132000" />
-      <workItem from="1488185981781" duration="3899000" />
+      <workItem from="1488185981781" duration="4023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48596000" />
+    <option name="totallyTimeSpent" value="48720000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="18" width="1241" height="998" extended-state="0" />
+    <frame x="577" y="18" width="1241" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18952619" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
