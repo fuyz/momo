@@ -7,9 +7,15 @@ var j = 2;
 var set1 = setInterval(function () {
     $('.newsList li').eq(j).slideDown(1000);
     if (j == 2) {
+<<<<<<< HEAD
         playSound('momo');
     } else {
         playSound('mail');
+=======
+        play_sound('./sounds/momo.mp3');
+    } else {
+        // play_sound('./sounds/mail/.mp3');
+>>>>>>> merge
     }
     j--;
     if (j == -1) {
@@ -312,6 +318,10 @@ function close_bx() {
     var animate3_arr = [[5, 3], [4, 3], [3, 3], [2, 3], [1, 3],[5,2],[4,2],[3,2],[2,2],[1,2],[4,1],[3,1],[2,1],[1,1]];
     var row = col = j = 0;
     //停止圈圈动画
+<<<<<<< HEAD
+=======
+    debugger
+>>>>>>> merge
     clearInterval(set_hing);
     //隐藏按钮
     $('#sauce').css({'display': 'none'});
@@ -373,12 +383,20 @@ function reback_animate() {
                     $('.page1').css('display','block');
                     $('.newsList li').eq(2).addClass('move_momo').click(function () {
 
+<<<<<<< HEAD
                         location.href = 'http://192.168.0.168/mainSite/';
+=======
+                        location.href = 'http://192.168.0.183/mainSite/';
+>>>>>>> merge
                     });
                 }
             }
 
+<<<<<<< HEAD
         }, 70)
+=======
+        }, 100)
+>>>>>>> merge
     }
 
 }

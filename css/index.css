@@ -19,6 +19,7 @@ html, body {
     background: black;
     /*display: none;*/
 }
+<<<<<<< HEAD
 .up{
     position: absolute;
     width: 10%;
@@ -47,6 +48,11 @@ html, body {
 }
 .time {
     padding-bottom: 10px;
+=======
+
+.time {
+    padding-bottom: 20px;
+>>>>>>> merge
     text-align: center;
     border-bottom: 1px solid #444;
 }
@@ -57,7 +63,10 @@ html, body {
 }
 
 .newsList {
+<<<<<<< HEAD
     margin: 0;
+=======
+>>>>>>> merge
     color: white;
     list-style: none;
     padding: 0;
@@ -76,7 +85,11 @@ html, body {
 }
 
 .newsList li:nth-child(3) {
+<<<<<<< HEAD
     background-image: url('../img/logo.png');
+=======
+    background-image: url('../img/momo-bg.png');
+>>>>>>> merge
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: 25px 19px;
@@ -94,11 +107,14 @@ html, body {
 .newsList li p {
     line-height: 24px;
 }
+<<<<<<< HEAD
 .zhihe{
     width: 67px;
     height: 22px;
     margin: 8px 0 -8px 64px;
 }
+=======
+>>>>>>> merge
 
 .move_momo {
     animation: scale 0.6s ease infinite;
