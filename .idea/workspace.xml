@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e3c5c9-1294-4391-9cee-08b4d47eed9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/close.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/get.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/open.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/put.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sounds/replay.mp3" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sounds/Humm.ogg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/indexx.js" afterPath="$PROJECT_DIR$/js/indexx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sounds_init.js" afterPath="$PROJECT_DIR$/js/sounds_init.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,10 +27,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="108" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="108" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,33 +40,57 @@
       <file leaf-file-name="indexx.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/indexx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="385" column="23" lean-forward="true" selection-start-line="385" selection-start-column="23" selection-end-line="385" selection-end-column="23" />
+            <state relative-caret-position="333">
+              <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
-                <element signature="n#!!block;n#play_sound#0" expanded="false" />
-                <element signature="n#!!block;n#animate1#0" expanded="false" />
-                <element signature="n#!!block;n#animate2#0" expanded="false" />
-                <element signature="n#!!block;n#animate3#0" expanded="false" />
-                <element signature="n#!!block;n#hing_move#0" expanded="false" />
-                <element signature="n#!!block;n#jump_out#0" expanded="false" />
-                <element signature="n#!!block;n#sauce_animate_get#0" expanded="false" />
-                <element signature="n#!!block;n#sauce_animate_pull#0" expanded="false" />
-                <element signature="n#!!block;n#rice_animate_get#0" expanded="false" />
-                <element signature="n#!!block;n#rice_animate_pull#0" expanded="false" />
-                <element signature="n#!!block;n#beer_animate_get#0" expanded="false" />
-                <element signature="n#!!block;n#beer_animate_pull#0" expanded="false" />
-                <element signature="n#!!block;n#close_bx#0" expanded="false" />
-                <element signature="n#!!block;n#reChoice#0" expanded="false" />
+                <element signature="e#1507#2234#0" expanded="false" />
+                <element signature="e#2267#3251#0" expanded="false" />
+                <element signature="e#3306#3676#0" expanded="false" />
+                <element signature="e#3743#4299#0" expanded="false" />
+                <element signature="e#4341#5578#0" expanded="false" />
+                <element signature="e#5621#6738#0" expanded="false" />
+                <element signature="e#6778#8005#0" expanded="false" />
+                <element signature="e#8046#9168#0" expanded="false" />
+                <element signature="e#9208#10443#0" expanded="false" />
+                <element signature="e#10484#11601#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beer-text.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/beer-text.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingxiang1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animate_img/bingxiang1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingxiang2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animate_img/bingxiang2.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bingxiang3.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animate_img/bingxiang3.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="sounds_init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/sounds_init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="546">
+              <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
               <folding>
                 <element signature="n#!!block;n#soundLoaded#0" expanded="false" />
                 <element signature="e#1184#1694#0" expanded="false" />
@@ -85,8 +102,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -100,10 +117,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/sounds_init.js" />
-        <option value="$PROJECT_DIR$/js/indexx.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/js/indexx.js" />
       </list>
     </option>
   </component>
@@ -186,6 +203,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="momo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="momo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animate_img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,15 +303,15 @@
       <option name="presentableId" value="Default" />
       <updated>1488243537009</updated>
       <workItem from="1488243541238" duration="1185000" />
-      <workItem from="1488266159598" duration="1664000" />
+      <workItem from="1488266159598" duration="7988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2849000" />
+    <option name="totallyTimeSpent" value="9173000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="325" y="10" width="1413" height="1016" extended-state="1" />
+    <frame x="325" y="10" width="1413" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20654546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -317,7 +348,8 @@
         <state relative-caret-position="147">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -327,20 +359,16 @@
         <state relative-caret-position="1365">
           <caret line="362" column="40" lean-forward="true" selection-start-line="362" selection-start-column="40" selection-end-line="362" selection-end-column="40" />
           <folding>
-            <element signature="n#!!block;n#play_sound#0" expanded="false" />
-            <element signature="n#!!block;n#animate1#0" expanded="false" />
-            <element signature="n#!!block;n#animate2#0" expanded="false" />
-            <element signature="n#!!block;n#animate3#0" expanded="false" />
-            <element signature="n#!!block;n#hing_move#0" expanded="false" />
-            <element signature="n#!!block;n#jump_out#0" expanded="false" />
-            <element signature="n#!!block;n#sauce_animate_get#0" expanded="false" />
-            <element signature="n#!!block;n#sauce_animate_pull#0" expanded="false" />
-            <element signature="n#!!block;n#rice_animate_get#0" expanded="false" />
-            <element signature="n#!!block;n#rice_animate_pull#0" expanded="false" />
-            <element signature="n#!!block;n#beer_animate_get#0" expanded="false" />
-            <element signature="n#!!block;n#beer_animate_pull#0" expanded="false" />
-            <element signature="n#!!block;n#close_bx#0" expanded="false" />
-            <element signature="n#!!block;n#reChoice#0" expanded="false" />
+            <element signature="e#1507#2234#0" expanded="false" />
+            <element signature="e#2267#3251#0" expanded="false" />
+            <element signature="e#3306#3676#0" expanded="false" />
+            <element signature="e#3743#4299#0" expanded="false" />
+            <element signature="e#4341#5578#0" expanded="false" />
+            <element signature="e#5621#6738#0" expanded="false" />
+            <element signature="e#6778#8005#0" expanded="false" />
+            <element signature="e#8046#9168#0" expanded="false" />
+            <element signature="e#9208#10443#0" expanded="false" />
+            <element signature="e#10484#11601#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -372,28 +400,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animate_img/bingxiang1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate_img/bingxiang2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/beer-text.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sounds/soundjs-NEXT.combined.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="108" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="108" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animate_img/bingxiang3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/sounds_init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="546">
+          <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
           <folding>
             <element signature="n#!!block;n#soundLoaded#0" expanded="false" />
             <element signature="e#1184#1694#0" expanded="false" />
@@ -403,23 +462,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/indexx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="385" column="23" lean-forward="true" selection-start-line="385" selection-start-column="23" selection-end-line="385" selection-end-column="23" />
+        <state relative-caret-position="333">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
-            <element signature="n#!!block;n#play_sound#0" expanded="false" />
-            <element signature="n#!!block;n#animate1#0" expanded="false" />
-            <element signature="n#!!block;n#animate2#0" expanded="false" />
-            <element signature="n#!!block;n#animate3#0" expanded="false" />
-            <element signature="n#!!block;n#hing_move#0" expanded="false" />
-            <element signature="n#!!block;n#jump_out#0" expanded="false" />
-            <element signature="n#!!block;n#sauce_animate_get#0" expanded="false" />
-            <element signature="n#!!block;n#sauce_animate_pull#0" expanded="false" />
-            <element signature="n#!!block;n#rice_animate_get#0" expanded="false" />
-            <element signature="n#!!block;n#rice_animate_pull#0" expanded="false" />
-            <element signature="n#!!block;n#beer_animate_get#0" expanded="false" />
-            <element signature="n#!!block;n#beer_animate_pull#0" expanded="false" />
-            <element signature="n#!!block;n#close_bx#0" expanded="false" />
-            <element signature="n#!!block;n#reChoice#0" expanded="false" />
+            <element signature="e#1507#2234#0" expanded="false" />
+            <element signature="e#2267#3251#0" expanded="false" />
+            <element signature="e#3306#3676#0" expanded="false" />
+            <element signature="e#3743#4299#0" expanded="false" />
+            <element signature="e#4341#5578#0" expanded="false" />
+            <element signature="e#5621#6738#0" expanded="false" />
+            <element signature="e#6778#8005#0" expanded="false" />
+            <element signature="e#8046#9168#0" expanded="false" />
+            <element signature="e#9208#10443#0" expanded="false" />
+            <element signature="e#10484#11601#0" expanded="false" />
           </folding>
         </state>
       </provider>
