@@ -7,15 +7,9 @@ var j = 2;
 var set1 = setInterval(function () {
     $('.newsList li').eq(j).slideDown(1000);
     if (j == 2) {
-<<<<<<< HEAD
         playSound('momo');
     } else {
         playSound('mail');
-=======
-        play_sound('./sounds/momo.mp3');
-    } else {
-        // play_sound('./sounds/mail/.mp3');
->>>>>>> merge
     }
     j--;
     if (j == -1) {
@@ -44,6 +38,7 @@ function changePages() {
 var page2 = document.querySelector('.page2');
 //放下手机
 function animate1() {
+    playSound('open');
     var animate1_arr = [[3, 4], [3, 3], [3, 2], [2, 2], [1, 2], [4, 1], [3, 1], [2, 1], [1, 1], [5, 3], [4, 3], [2, 3], [1, 3], [4, 2]];
     var row = col = j = 0;
     var set2 = setInterval(function () {
@@ -141,6 +136,7 @@ function jump_out() {
 }
 //拿老干妈
 function sauce_animate_get() {
+    playSound('get');
     var animate2_arr = [[5, 2], [1, 3], [2, 3], [3, 3], [4, 3], [5, 3]];
     var row = col = j = 0;
     //隐藏按钮
@@ -171,6 +167,7 @@ function sauce_animate_get() {
 }
 //放老干妈
 function sauce_animate_pull() {
+    playSound('put');
     var animate2_arr = [[5, 3], [4, 3], [3, 3], [2, 3], [1, 3], [5, 1]];
     var row = col = j = 0;
 
@@ -200,6 +197,7 @@ function sauce_animate_pull() {
 }
 //拿米饭
 function rice_animate_get() {
+    playSound('get');
     var animate_arr = [[1, 3], [2, 3], [3, 3], [4, 3], [5, 3], [6, 3]];
     var row = col = j = 0;
     //隐藏按钮
@@ -229,6 +227,7 @@ function rice_animate_get() {
 }
 //放米饭
 function rice_animate_pull() {
+    playSound('put');
     var animate2_arr = [[6, 3], [5, 3], [4, 3], [3, 3], [2, 3], [1, 3], [5, 1]];
     var row = col = j = 0;
 
@@ -258,6 +257,7 @@ function rice_animate_pull() {
 }
 //拿啤酒
 function beer_animate_get() {
+    playSound('get');
     var animate_arr = [[5, 2], [4, 2], [3, 2], [2, 2], [1, 2], [4, 1], [3, 1]];
     var row = col = j = 0;
     //隐藏按钮
@@ -287,6 +287,7 @@ function beer_animate_get() {
 }
 //放啤酒
 function beer_animate_pull() {
+    playSound('put');
     var animate_arr = [[3, 1], [4, 1], [1, 2], [2, 2], [3, 2], [4, 2], [5, 2]];
     var row = col = j = 0;
 
@@ -315,13 +316,11 @@ function beer_animate_pull() {
 }
 //关冰箱
 function close_bx() {
+    playSound('close');
     var animate3_arr = [[5, 3], [4, 3], [3, 3], [2, 3], [1, 3],[5,2],[4,2],[3,2],[2,2],[1,2],[4,1],[3,1],[2,1],[1,1]];
     var row = col = j = 0;
     //停止圈圈动画
-<<<<<<< HEAD
-=======
-    debugger
->>>>>>> merge
+
     clearInterval(set_hing);
     //隐藏按钮
     $('#sauce').css({'display': 'none'});
@@ -357,6 +356,7 @@ function reChoice() {
 }
 //时间倒流
 function reback_animate() {
+    playSound('replay');
 
     //离开冰箱
     var animate2_arr = [[3, 4], [2, 4], [1, 4], [7, 3], [6, 3], [5, 3], [4, 3], [3, 3], [2, 3], [1, 3], [5, 1], [4, 1], [3, 1], [2, 1], [1, 1]];
@@ -382,21 +382,11 @@ function reback_animate() {
                     $('.page2').css('display','none');
                     $('.page1').css('display','block');
                     $('.newsList li').eq(2).addClass('move_momo').click(function () {
-
-<<<<<<< HEAD
-                        location.href = 'http://192.168.0.168/mainSite/';
-=======
-                        location.href = 'http://192.168.0.183/mainSite/';
->>>>>>> merge
+                        location.href = 'http://192.168.0.104/mainSite/';
                     });
                 }
             }
-
-<<<<<<< HEAD
-        }, 70)
-=======
         }, 100)
->>>>>>> merge
     }
 
 }
