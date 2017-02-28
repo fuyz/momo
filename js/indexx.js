@@ -46,7 +46,7 @@ $(function () {
                 clearInterval(set2);
                 animate2();
             }
-        }, 100)
+        }, 150)
     }
 
 //走向冰箱
@@ -362,7 +362,7 @@ $(function () {
                 clearInterval(set4);
                 reChoice()
             }
-        }, 200)
+        }, 150)
     }
 
 //重新选择按钮

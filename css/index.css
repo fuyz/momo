@@ -176,7 +176,7 @@ html, body {
 }
 
 .jump {
-    width: 48%;
+    width: 43%;
     height: 50px;
     position: absolute;
     bottom: 7px;
@@ -193,11 +193,11 @@ html, body {
 }
 
 .jump2 {
-    background-position: 0 -50px;
+    background-position: 0 -40px;
 }
 
 .jump3 {
-    background-position: 0 -100px;
+    background-position: 0 -90px;
 }
 
 .sauce-text {
